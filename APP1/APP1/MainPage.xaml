@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="APP1.MainPage">
+
+    <StackLayout BackgroundColor="#000000">
+        <Image x:Name="logo" HeightRequest="150" BackgroundColor="#000000"/>
+        <ScrollView>
+
+            <Grid RowSpacing="20" ColumnSpacing="10" Padding="10" BackgroundColor="#000000">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                </Grid.RowDefinitions>
+
+                <Button Grid.Row="0" Grid.Column="0"
+                        Text="Animacao"
+                        Style="{ StaticResource ButtonVermelhoMenu }"
+                        Clicked="Btn_Open_Animacao"
+                        BackgroundColor="#831010"
+                        TextColor="#ffffff"
+                        FontSize="30"/>
+
+                <Button Grid.Row="0" Grid.Column="1"
+                        Text="Aventura"
+                        Style="{ StaticResource ButtonVermelhoMenu }"
+                        Clicked="Btn_Open_Aventura"
+                        BackgroundColor="#831010"
+                        TextColor="#ffffff"
+                        FontSize="30"/>
+
+                <Button Grid.Row="1" Grid.Column="0"
+                        Text="Comedia"
+                        Style="{ StaticResource ButtonVermelhoMenu }"
+                        Clicked="Btn_Open_Comedia"
+                        BackgroundColor="#831010"
+                        TextColor="#ffffff"
+                        FontSize="30"/>
+                
+                <Button Grid.Row="1" Grid.Column="1"
+                        Text="Drama"
+                        Style="{ StaticResource ButtonVermelhoMenu }"
+                        Clicked="Btn_Open_Drama"
+                        BackgroundColor="#831010"
+                        TextColor="#ffffff"
+                        FontSize="30"/>
+                
+                <Button Grid.Row="2" Grid.Column="0"
+                        Text="Ficção Cientifica"
+                        Style="{ StaticResource ButtonVermelhoMenu }"
+                        Clicked="Btn_Open_Ficcao"
+                        BackgroundColor="#831010"
+                        TextColor="#ffffff"
+                        FontSize="30"/>
+
+                <Button Grid.Row="2" Grid.Column="1"
+                        Text="Terror"
+                        Style="{ StaticResource ButtonVermelhoMenu }"
+                        Clicked="Btn_Open_Terror"
+                        BackgroundColor="#831010"
+                        TextColor="#ffffff"
+                        FontSize="30"/>
+            </Grid>
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>

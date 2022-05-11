@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="APP1.categorias.sing">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#000000">
+            <ScrollView>
+            <Grid RowDefinitions="500, 500, 500" ColumnDefinitions="*">
+                <ImageButton x:Name="btn_sing" Grid.Row="0" Margin="5" />
+                    <WebView x:Name="visuzalizador" Grid.Row="1" VerticalOptions="FillAndExpand"
+                         Source="https://www.youtube.com/embed/ylJfJm8-gkw"/>
+                    <Label Text="É um filme de animação digital do gênero comédia musical produzido pela Illumination e é a sequência do filme de 2016, Sing. O filme estrelado por Matthew McConaughey, Reese Witherspoon, Seth MacFarlane, Scarlett Johansson, Nick Kroll, Taron Egerton e Tori Kelly, reprisando seus papéis do primeiro filme. O lançamento do filme foi em 22 de dezembro de 2021 (nos Estados Unidos) e 06 de janeiro de 2022 (no Brasil), pela Universal Pictures." Grid.Row="2" Margin="5" TextColor="White" />
+                    
+            </Grid>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

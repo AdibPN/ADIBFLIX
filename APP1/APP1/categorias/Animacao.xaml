@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="APP1.categorias.Animacao">
+    <ContentPage.Content>
+        
+        <StackLayout BackgroundColor="#000000">
+            <ScrollView>
+            <Grid RowDefinitions="500, 500, 500" ColumnDefinitions="*">
+                    <ImageButton x:Name="btn_sing" Grid.Row="0" Margin="5" Clicked="sing_Clicked"/>
+                    <ImageButton x:Name="btn_filmes_6020_croods2_5" Grid.Row="1" Margin="5" Clicked="filmes_6020_croods2_5_cliked" />
+                </Grid>
+            </ScrollView>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

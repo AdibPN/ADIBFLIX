@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="APP1.categorias.filmes_6020_croods2_5">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#000000">
+            <ScrollView>
+                <Grid RowDefinitions="500, 500, 500" ColumnDefinitions="*">
+                    <ImageButton x:Name="btn_filmes_6020_croods2_5" Grid.Row="0" Margin="5" />
+                    <WebView x:Name="visuzalizador" Grid.Row="1" VerticalOptions="FillAndExpand"
+                         Source="https://www.youtube.com/embed/sZIqMz_AC24"/>
+                    <Label Text="Em busca de um habitat mais seguro, a família pré-histórica Crood descobre um paraíso isolado que atende a todas as suas necessidades. Infelizmente, eles também devem aprender a viver com os Bettermans, uma família que está alguns degraus acima dos Croods na escada evolutiva. À medida que as tensões entre os novos vizinhos começam a aumentar, uma nova ameaça logo impulsiona os dois clãs em uma aventura épica que os força a abraçar suas diferenças e se fortalecerem e sobreviverem juntos." Grid.Row="2" Margin="5" TextColor="White" />
+
+                </Grid>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
